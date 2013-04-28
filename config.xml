@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.0" id="html5android">
+
+  <author href="http://www.ravacho.com/" rim:copyright="Copyright 1998-2012 Ravacho">My Corp</author>
+  <name>Botones HTML5</name>
+
+    <content src="index.html" rim:allowInvokeParams="true"/>
+</widget>
