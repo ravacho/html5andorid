@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+  <form>
+ 
+    <input name="form_number" id="form_number" type="number" min="1" max="10" >
+    <input name="form_date" id="form_date" type="date">  
+    <input name="form_month" id="form_month" type="month">  
+    <input name="form_week" id="form_week" type="week">  
+    <input name="form_time" id="form_time" type="time">  
+    <input name="form_url" id="form_url" type="url" list="url_list">  
+    <datalist id="url_list">  
+        <option value="http://www.google.com" label="Google">  
+        <option value="http://net.tutsplus.com" label="NetTuts+">  
+    </datalist>  
+    <input name="form_email" id="form_email" type="email" list="email_list" multiple>  
+    <datalist id="email_list">  
+       <option value="jane.doe@test.com" label="Jane Doe">  
+       <option value="john.doe@test.com" label="John Doe">  
+    </datalist>  
+    <input name="form_telephone" id="form_telephone" type="tel">  
+    <input name="form_color" id="form_color" type="color">  
+    <label>
+        Attachments: 
+        <input type="file" multiple name="att">
+    </label>
+    <input name="x" type="range" min="100" max="700" step="9.09090909" value="509.090909">
+ 
+  </form>
+  </body>
+</html>
